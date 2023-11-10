@@ -1,0 +1,9 @@
+service : {
+  EnterMedicineDetailsAndCost: (text, nat) -> (bool);
+  deleteMoreDetails: () -> (bool);
+  deleteRegDetails: () -> (bool);
+  getMyMoreDetails: () -> (bool) query;
+  getMyRegDetails: () -> (bool) query;
+  pushMoreDetails: (text, text, nat, text, text, text, text, text) -> (bool);
+  pushRegDetails: (text, text, text, nat, text) -> (bool);
+}
